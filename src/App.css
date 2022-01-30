@@ -27,6 +27,7 @@ body {
   display: block;
   text-align: center;
   padding-bottom: 20px;
+  cursor: pointer;
 }
 
 .product_card img {
@@ -75,6 +76,7 @@ body {
   color: orangered;
   font-size: 30px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .expanded_image_content img {

@@ -28,7 +28,7 @@ const Products = () => {
                 key={item.id}
                 layoutId={item.id}
               >
-                <img src={`../../public/images/${item.image}`} alt="img"/>
+                <img src={`images/${item.image}`} alt="img"/>
                 <p>{item.yoga}</p>
                 <p>{item.details}</p>
               </motion.div>

@@ -12,8 +12,7 @@ const Product = ({ id, expander }) => {
           <p onClick={expander}>
             <RiArrowGoBackFill />
           </p>
-          Daa
-          <img src={`../../public/images/${yoga_name.image}`} alt="" />
+          <img src={`images/${yoga_name.image}`} alt="" />
         </div>
       </div>
       <div className="expanded_text">
